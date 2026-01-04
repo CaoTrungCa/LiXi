@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bốc Thăm Lì Xì May Mắn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="assets/images/left.png" class="decor-left" alt="Trang trí trái" />
+    <img
+      src="assets/images/right.png"
+      class="decor-right"
+      alt="Trang trí phải"
+    />
+
+    <h1>🧧 Chúc Mừng Năm Mới 🧧</h1>
+    <h2>Xuân Bính Ngọ 2026</h2>
+
+    <div class="grid-container" id="envelopeGrid"></div>
+
+    <button class="reset-btn" onclick="shakeEnvelopes()">Lắc</button>
+
+    <div class="modal" id="resultModal">
+      <div class="modal-content">
+        <h2 id="wishDisplay">Chúc Mừng Năm Mới!</h2>
+        <button class="close-btn" onclick="closeModal()">
+          Người tiếp theo
+        </button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
